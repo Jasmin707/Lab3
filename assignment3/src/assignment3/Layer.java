@@ -1,3 +1,15 @@
+/* WORD LADDER Layer.java
+ * EE422C Project 3 submission by
+ * Ethan Cranmer
+ * elc2255
+ * 16475
+ * Jasmin Rajan
+ * JOR427
+ * 16470
+ * Slip days used: <0>
+ * Git URL:https://github.com/Jasmin707/Lab3
+ * Fall 2016
+ */
 package assignment3;
 
 import java.util.ArrayList;
