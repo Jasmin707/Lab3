@@ -2,10 +2,10 @@
  * EE422C Project 3 submission by
  * Ethan Cranmer
  * elc2255
- * <Student1 5-digit Unique No.>
- * <Student2 Name>
- * <Student2 EID>
- * <Student2 5-digit Unique No.>
+ * 16475
+ * Jasmin Rajan
+ * JOR427
+ * 16470
  * Slip days used: <0>
  * Git URL:
  * Fall 2016
@@ -39,6 +39,9 @@ public class Main {
 		initialize();
 		//check input
 		begin = parse(kb);
+		if (begin.size() == 0){
+			return;
+		}
 		System.out.println("Running getWordLadderDFS:");
 		print = getWordLadderDFS(begin.get(0), begin.get(1));
 		printLadder(print);
